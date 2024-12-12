@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alif Portofolio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background: #555;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+            transition: .5s;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            background-color: #444444;
+            transition: .5s;
+        }
+        section {
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 800px;
+        }
+        section.flex-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        section.felx-container img {
+            max-width: 200px;
+            border-radius: 10px;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .project-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+        .project-item img {
+            max-width: 150px;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portofolio</h1>
+    </header>
+    <nav>
+        <a href="#about me">About me</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+    </nav>
+    <section id="about me" class="flex-container"> 
+        <div>
+            <h2>About me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, tempore sed fugiat accusantium facere quae quam distinctio aperiam iure ipsa, atque, consectetur quidem nam dolore corporis quia debitis quibusdam assumenda?</p>
+        </div>
+        <img src="OIP (1).jpeg" alt="Your Photo">
+    </section>
+    <section id="education"> 
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Univesity of X</strong> - Computer Science</li>
+            <li><strong>High school Y</strong> - Science Major (2027-2030)</li>
+        </ul>
+    </section>
+    <section id="experience"> 
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Data Science</strong> at company A (2025-Present)</li>
+            <li><strong>Intern</strong> at Company B (2027-2030)</li>
+        </ul>
+    </section>
+    <section id="projects"> 
+        <h2>Projects</h2>
+        <div class="project-item">
+            <img src="OIP.jpeg"Project 1 Screenshot">
+            <div>
+                <a href="https://Example.com/Project" target="_blank"><strong>Project 1</strong></a>
+                <p>A web application for managing tasks</p>
+            </div>
+        </div>
+        <div class="project-item">
+            <img src="OIP.jpeg" alt="Project 1 Screenshot">
+            <div>
+                <a href="https://Example.com/Project" target="_blank"><strong>Project 1</strong></a>
+                <p>A web application for managing tasks</p>
+            </div>
+        </div>
+        <div class="project-item">
+            <img src="OIP.jpeg" alt="Project 1 Screenshot">
+            <div>
+                <a href="https://Example.com/Project" target="_blank"><strong>Project 1</strong></a>
+                <p>A web application for managing tasks</p>
+            </div>
+        </div>
+        <div class="project-item">
+            <img src="OIP.jpeg" alt="Project 1 Screenshot">
+            <div>
+                <a href="https://Example.com/Project" target="_blank"><strong>Project 1</strong></a>
+                <p>A web application for managing tasks</p>
+            </div>
+        </div>
+            
+    </section>
+    <footer>
+        <p>&copy;2024 My name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
